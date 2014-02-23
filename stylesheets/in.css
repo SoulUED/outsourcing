@@ -1,0 +1,69 @@
+/* line 1, ../sass/in.scss */
+.page-content-title {
+  width: 659px;
+  margin: 0 auto;
+  padding-bottom: 13px;
+  border-bottom: 1px dashed #dedede;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* line 9, ../sass/in.scss */
+.pub-time {
+  width: 659px;
+  margin: 0 auto;
+  margin-top: 17px;
+  margin-bottom: 39px;
+  text-align: center;
+  color: #dedede;
+}
+
+/* line 17, ../sass/in.scss */
+.page-content {
+  width: 659px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-indent: 15px;
+}
+
+/* line 23, ../sass/in.scss */
+.ch-page {
+  width: 659px;
+  margin: 0 auto;
+}
+/* line 26, ../sass/in.scss */
+.ch-page a {
+  color: #666;
+}
+
+/* line 30, ../sass/in.scss */
+.share {
+  width: 659px;
+  height: 20px;
+  padding-left: 20px;
+  margin: 10px auto;
+}
+/* line 35, ../sass/in.scss */
+.share a {
+  color: #666;
+}
+/* line 37, ../sass/in.scss */
+.share a .zone {
+  background-position: 0 -64px;
+}
+/* line 40, ../sass/in.scss */
+.share a .sina {
+  background-position: 0 -96px;
+}
+/* line 43, ../sass/in.scss */
+.share a .qq {
+  background-position: 0 -144px;
+}
+/* line 46, ../sass/in.scss */
+.share a .douban {
+  background-position: 0 -560px;
+}
+/* line 49, ../sass/in.scss */
+.share a .micme {
+  background-position: 0 -240px;
+}

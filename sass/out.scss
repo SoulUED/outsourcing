@@ -1,0 +1,43 @@
+.page-nav{
+  width: 659px;
+  margin: 21px auto;
+  li{
+    width: 100%;
+    padding: 4px;
+    line-height: 28px;
+    a{
+      color: #666;
+      text-decoration: none;
+      span{
+        float: right;
+      }
+      display: inline-block;
+      width: 100%;
+      border-bottom: 1px dashed #dedede;
+    }
+  }
+}
+%pre-hover{
+  text-decoration: none;
+  color: #004986;
+  background: #eee;
+}
+.present-index{
+  @extend %pre-hover;
+}
+.index-page{
+  width: 362px;
+  margin: 50px auto;
+  margin-top: 30px;
+  a{
+    display: inline-block;
+    height: 20px;
+    border: 1px solid #dedede;
+    padding: 0 5px;
+    color: #666;
+    line-height: 20px;
+    &:hover{
+      @extend %pre-hover;
+    }
+  }
+}

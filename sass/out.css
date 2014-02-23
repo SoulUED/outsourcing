@@ -1,0 +1,32 @@
+.page-nav {
+  width: 659px;
+  margin: 21px auto; }
+  .page-nav li {
+    width: 100%;
+    padding: 4px;
+    line-height: 28px; }
+    .page-nav li a {
+      color: #666;
+      text-decoration: none;
+      display: inline-block;
+      width: 100%;
+      border-bottom: 1px dashed #dedede; }
+      .page-nav li a span {
+        float: right; }
+
+.present-index, .index-page a:hover {
+  text-decoration: none;
+  color: #004986;
+  background: #eee; }
+
+.index-page {
+  width: 362px;
+  margin: 50px auto;
+  margin-top: 30px; }
+  .index-page a {
+    display: inline-block;
+    height: 20px;
+    border: 1px solid #dedede;
+    padding: 0 5px;
+    color: #666;
+    line-height: 20px; }

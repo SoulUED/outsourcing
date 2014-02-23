@@ -1,0 +1,41 @@
+@import "inherit";
+@import "compass/css3";
+.apply-form{
+  width: 335px;
+  margin: 50px auto;
+  fieldset{
+    margin-bottom: 18px;
+  }
+  label{
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px;
+  }
+  input[type="text"]{
+    float: right;
+    width: 218px;
+    height: 38px;
+    border: 1px solid #dedede;
+  }
+  img{
+    float: right;
+    margin-left: 20px;
+    margin-right: 37px;
+  }
+  input[type="submit"]{
+    display: block;
+    width: 96px;
+    height: 30px;
+    margin: 0 auto;
+    border: 0;
+    @include bg-sprite(nav-bg);
+    background-repeat: repeat-x;
+    color: white;
+    @include border-radius(5px);
+  }
+}
+#user-val{
+  float: right;
+  position: relative;
+  width: 105px;
+}

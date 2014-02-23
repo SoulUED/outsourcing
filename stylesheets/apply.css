@@ -1,0 +1,61 @@
+/* line 90, bg/*.png */
+.bg-sprite, .apply-form input[type="submit"] {
+  background: url('/images/bg-se420ae1806.png') no-repeat;
+}
+
+/* line 178, icon/*.png */
+.icon-sprite {
+  background: url('/images/icon-s81de824d47.png') no-repeat;
+}
+
+/* line 3, ../sass/apply.scss */
+.apply-form {
+  width: 335px;
+  margin: 50px auto;
+}
+/* line 6, ../sass/apply.scss */
+.apply-form fieldset {
+  margin-bottom: 18px;
+}
+/* line 9, ../sass/apply.scss */
+.apply-form label {
+  font-size: 16px;
+  height: 38px;
+  line-height: 38px;
+}
+/* line 14, ../sass/apply.scss */
+.apply-form input[type="text"] {
+  float: right;
+  width: 218px;
+  height: 38px;
+  border: 1px solid #dedede;
+}
+/* line 20, ../sass/apply.scss */
+.apply-form img {
+  float: right;
+  margin-left: 20px;
+  margin-right: 37px;
+}
+/* line 25, ../sass/apply.scss */
+.apply-form input[type="submit"] {
+  display: block;
+  width: 96px;
+  height: 30px;
+  margin: 0 auto;
+  border: 0;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 37, ../sass/apply.scss */
+#user-val {
+  float: right;
+  position: relative;
+  width: 105px;
+}

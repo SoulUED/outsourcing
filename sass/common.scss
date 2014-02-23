@@ -1,0 +1,202 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "inherit";
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+body{
+  font: 12px/1.5 "Microsoft Yahei","STHeiti Light [STXihei]";
+  color: #666;
+}
+%website-name-margin{
+  margin: 8px 0 7px 0;
+}
+.clear-float:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.bottom-shadow{
+  border-bottom: 1px solid #e3e2e2;
+  @include box-shadow(#e3e2e2 0 1px 3px);
+}
+.user-server{
+  width: 960px;
+  height: 32px;
+  margin: 0 auto;
+}
+.website-name{
+  float: left;
+  @extend %website-name-margin;
+}
+.user-fun{
+  position: relative;
+  float: right;
+  @extend %website-name-margin;
+  a{
+    float: left;
+    padding: 0 12px;
+    border-right: 1px solid #7a7a7a;
+    border-left: 1px solid #b8b8b8;
+    color: #666;
+  }
+}
+a.user-fun-first{
+  border-left: none;
+}
+a.user-fun-last{
+  border: none;
+  //border-right: none;
+}
+a.fun-weico{
+  position: relative;
+  width: 68px;
+  height: 26px;
+  border: none;
+  top: -4px;
+  right: -5px;
+  @include icon-sprite(weico-icon);
+}
+.tri-icon{
+  display: inline-block;
+  position: relative;
+  width: 8px;
+  height: 6px;
+  right: -4px;
+  top: -1px;
+  @include icon-sprite(tri-icon);
+}
+.content{
+  width: 960px;
+  margin: 0 auto;
+}
+.logo-box{
+  position: relative;
+  height: 85px;
+}
+.logo-one{
+  position: absolute;
+  width: 141px;
+  height: 34px;
+  top: 32px;
+  @include icon-sprite(logo-text);
+}
+.logo-two{
+  position: absolute;
+  width: 193px;
+  height: 85px;
+  right: 23px;
+  @include icon-sprite(icon-logo);
+}
+.search-input{
+  width: 233px;
+  padding: 9px;
+  border: 1px solid #dedede;
+  border-right: 0;
+  color: #666;
+  padding-bottom: 8px;
+  @include border-radius(5px 0 0 5px);
+  &:focus{
+    outline: 0;
+  }
+}
+.banner{
+  width: 100%;
+  height: 270px;
+  color: #666;
+}
+.content-box{
+  margin: 23px 0;
+}
+::-webkit-input-placeholder {
+  color: #666;
+}
+.logo-box{
+  form{
+    position: absolute;
+    left: 338px;
+    top: 32px;
+  }
+}
+.search-submit{
+  position: relative;
+  width: 41px;
+  height: 34px;
+  border: 0;
+  top: 9px;
+  right: 4px;
+  @include icon-sprite(icon-search);
+}
+.main-nav{
+  height: 38px + 22px + 10px;
+  > ul{
+    height: 38px;
+    overflow: visible;
+    @include bg-sprite(icon-nav-bg);
+    @include border-radius(5px);
+    background-repeat: repeat-x;
+    > li{
+      float: left;
+      position: relative;
+      width: 120px;
+      height: 68px;
+      overflow: visible;
+      text-align: center;
+      font-size: 16px;
+      &:hover{
+        > a {
+          @include bg-sprite(icon-nav-hv);
+          @include border-radius(5px);
+          background-repeat: repeat-x;
+          text-decoration: none;
+        }
+        ul{
+          visibility: visible;
+        }
+      }
+      > a{
+        display: inline-block;
+        width: 100%;
+        height: 38px;
+        line-height: 38px;
+        color: white;
+        &:hover{
+          @include bg-sprite(icon-nav-hv);
+          @include border-radius(5px);
+          background-repeat: repeat-x;
+          text-decoration: none;
+        }
+      }
+      ul{
+        position: absolute;
+        visibility: hidden;
+        width: 300%;
+        top: 48px;
+      }
+      li{
+        float: left;
+        font-size: 12px;
+        white-space: nowrap;
+        a{
+          color: #666;
+        }
+      }
+    }
+  }
+}
+footer{
+  border: 1px solid #dedede;
+  text-align: center;
+  padding: 23px 0 28px 0;
+  font-size: 16px;
+  a{
+    display: inline-block;
+    line-height: 1.6;
+    color: #666;
+  }
+}
+

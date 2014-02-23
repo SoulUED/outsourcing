@@ -1,0 +1,45 @@
+.page-content-title {
+  width: 659px;
+  margin: 0 auto;
+  padding-bottom: 13px;
+  border-bottom: 1px dashed #dedede;
+  text-align: center;
+  font-size: 16px; }
+
+.pub-time {
+  width: 659px;
+  margin: 0 auto;
+  margin-top: 17px;
+  margin-bottom: 39px;
+  text-align: center;
+  color: #dedede; }
+
+.page-content {
+  width: 659px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-indent: 15px; }
+
+.ch-page {
+  width: 659px;
+  margin: 0 auto; }
+  .ch-page a {
+    color: #666; }
+
+.share {
+  width: 659px;
+  height: 20px;
+  padding-left: 20px;
+  margin: 10px auto; }
+  .share a {
+    color: #666; }
+    .share a .zone {
+      background-position: 0 -64px; }
+    .share a .sina {
+      background-position: 0 -96px; }
+    .share a .qq {
+      background-position: 0 -144px; }
+    .share a .douban {
+      background-position: 0 -560px; }
+    .share a .micme {
+      background-position: 0 -240px; }

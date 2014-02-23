@@ -1,0 +1,46 @@
+/* line 1, ../sass/out.scss */
+.page-nav {
+  width: 659px;
+  margin: 21px auto;
+}
+/* line 4, ../sass/out.scss */
+.page-nav li {
+  width: 100%;
+  padding: 4px;
+  line-height: 28px;
+}
+/* line 8, ../sass/out.scss */
+.page-nav li a {
+  color: #666;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px dashed #dedede;
+}
+/* line 11, ../sass/out.scss */
+.page-nav li a span {
+  float: right;
+}
+
+/* line 20, ../sass/out.scss */
+.present-index, .index-page a:hover {
+  text-decoration: none;
+  color: #004986;
+  background: #eee;
+}
+
+/* line 28, ../sass/out.scss */
+.index-page {
+  width: 362px;
+  margin: 50px auto;
+  margin-top: 30px;
+}
+/* line 32, ../sass/out.scss */
+.index-page a {
+  display: inline-block;
+  height: 20px;
+  border: 1px solid #dedede;
+  padding: 0 5px;
+  color: #666;
+  line-height: 20px;
+}

@@ -1,0 +1,344 @@
+/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 90, bg/*.png */
+.bg-sprite, .main-nav > ul, .main-nav > ul > li:hover > a, .main-nav > ul > li > a:hover {
+  background: url('../images/bg-se420ae1806.png') no-repeat;
+}
+
+/* line 178, icon/*.png */
+.icon-sprite, a.fun-weico, .tri-icon, .logo-one, .logo-two, .search-submit {
+  background: url('../images/icon-s81de824d47.png') no-repeat;
+}
+
+/* line 5, ../sass/common.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 8, ../sass/common.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 11, ../sass/common.scss */
+body {
+  font: 12px/1.5 "Microsoft Yahei","STHeiti Light [STXihei]";
+  color: #666;
+}
+
+/* line 15, ../sass/common.scss */
+.website-name, .user-fun {
+  margin: 8px 0 7px 0;
+}
+
+/* line 18, ../sass/common.scss */
+.clear-float:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 23, ../sass/common.scss */
+.bottom-shadow {
+  border-bottom: 1px solid #e3e2e2;
+  -webkit-box-shadow: #e3e2e2 0 1px 3px;
+  -moz-box-shadow: #e3e2e2 0 1px 3px;
+  box-shadow: #e3e2e2 0 1px 3px;
+}
+
+/* line 27, ../sass/common.scss */
+.user-server {
+  width: 960px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+/* line 32, ../sass/common.scss */
+.website-name {
+  float: left;
+}
+
+/* line 36, ../sass/common.scss */
+.user-fun {
+  position: relative;
+  float: right;
+}
+/* line 40, ../sass/common.scss */
+.user-fun a {
+  float: left;
+  padding: 0 12px;
+  border-right: 1px solid #7a7a7a;
+  border-left: 1px solid #b8b8b8;
+  color: #666;
+}
+
+/* line 48, ../sass/common.scss */
+a.user-fun-first {
+  border-left: none;
+}
+
+/* line 51, ../sass/common.scss */
+a.user-fun-last {
+  border: none;
+}
+
+/* line 55, ../sass/common.scss */
+a.fun-weico {
+  position: relative;
+  width: 68px;
+  height: 26px;
+  border: none;
+  top: -4px;
+  right: -5px;
+  background-position: 0 -85px;
+}
+
+/* line 64, ../sass/common.scss */
+.tri-icon {
+  display: inline-block;
+  position: relative;
+  width: 8px;
+  height: 6px;
+  right: -4px;
+  top: -1px;
+  background-position: 0 -382px;
+}
+
+/* line 73, ../sass/common.scss */
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 77, ../sass/common.scss */
+.logo-box {
+  position: relative;
+  height: 85px;
+}
+
+/* line 81, ../sass/common.scss */
+.logo-one {
+  position: absolute;
+  width: 141px;
+  height: 34px;
+  top: 32px;
+  background-position: 0 -388px;
+}
+
+/* line 88, ../sass/common.scss */
+.logo-two {
+  position: absolute;
+  width: 193px;
+  height: 85px;
+  right: 23px;
+  background-position: 0 0;
+}
+
+/* line 95, ../sass/common.scss */
+.search-input {
+  width: 233px;
+  padding: 9px;
+  border: 1px solid #dedede;
+  border-right: 0;
+  color: #666;
+  padding-bottom: 8px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+/* line 103, ../sass/common.scss */
+.search-input:focus {
+  outline: 0;
+}
+
+/* line 107, ../sass/common.scss */
+.banner {
+  width: 100%;
+  height: 270px;
+  color: #666;
+}
+
+/* line 112, ../sass/common.scss */
+.content-box {
+  margin: 23px 0;
+}
+
+/* line 115, ../sass/common.scss */
+::-webkit-input-placeholder {
+  color: #666;
+}
+
+/* line 119, ../sass/common.scss */
+.logo-box form {
+  position: absolute;
+  left: 338px;
+  top: 32px;
+}
+
+/* line 125, ../sass/common.scss */
+.search-submit {
+  position: relative;
+  width: 41px;
+  height: 34px;
+  border: 0;
+  top: 9px;
+  right: 4px;
+  background-position: 0 -422px;
+}
+
+/* line 134, ../sass/common.scss */
+.main-nav {
+  height: 70px;
+}
+/* line 136, ../sass/common.scss */
+.main-nav > ul {
+  height: 38px;
+  overflow: visible;
+  background-position: 0 -34px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-repeat: repeat-x;
+}
+/* line 142, ../sass/common.scss */
+.main-nav > ul > li {
+  float: left;
+  position: relative;
+  width: 120px;
+  height: 68px;
+  overflow: visible;
+  text-align: center;
+  font-size: 16px;
+}
+/* line 151, ../sass/common.scss */
+.main-nav > ul > li:hover > a {
+  background-position: 0 -72px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+/* line 157, ../sass/common.scss */
+.main-nav > ul > li:hover ul {
+  visibility: visible;
+}
+/* line 161, ../sass/common.scss */
+.main-nav > ul > li > a {
+  display: inline-block;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  color: white;
+}
+/* line 167, ../sass/common.scss */
+.main-nav > ul > li > a:hover {
+  background-position: 0 -72px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+/* line 174, ../sass/common.scss */
+.main-nav > ul > li ul {
+  position: absolute;
+  visibility: hidden;
+  width: 300%;
+  top: 48px;
+}
+/* line 180, ../sass/common.scss */
+.main-nav > ul > li li {
+  float: left;
+  font-size: 12px;
+  white-space: nowrap;
+}
+/* line 184, ../sass/common.scss */
+.main-nav > ul > li li a {
+  color: #666;
+}
+
+/* line 191, ../sass/common.scss */
+footer {
+  border: 1px solid #dedede;
+  text-align: center;
+  padding: 23px 0 28px 0;
+  font-size: 16px;
+}
+/* line 196, ../sass/common.scss */
+footer a {
+  display: inline-block;
+  line-height: 1.6;
+  color: #666;
+}
